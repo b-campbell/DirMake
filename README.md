@@ -11,9 +11,9 @@ Assuming the folder test exists in the current directory:
 
 dirname = "test"
 print(dirname)
-> test
+  "test"
 dirname = dirmake(test)
 print(dirname)
-> test1
+  "test1"
 
 In the example above, dirmake(dirname) found that a folder called test already exists, therefore it add a number 1 to the end of the name (test -> test1) and created a new directory, returning the name of the newly created directory.
